@@ -1,0 +1,13 @@
+{
+  "name": "crm-minimo-webhook",
+  "version": "1.0.0",
+  "description": "API para receber leads do Facebook",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
